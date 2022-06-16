@@ -37,4 +37,8 @@ var illustrations = [
     });
   
   });
+
+  function vote(index) {
+    illustrations[index].votes++;
+  }
   
