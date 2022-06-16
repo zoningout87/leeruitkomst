@@ -117,18 +117,18 @@ body{
     transform: translate(-50%, -50%);
   }
   
-  .All-cats{
+  .All-illustrations{
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .All-cats li{
+  .All-illustrations li{
     display: inline-block;
     margin: 10px;
   }
   
-  .All-cats li img{
+  .All-illustrations li img{
     width: 80px;
     opacity: .5;
     cursor: pointer;
@@ -137,10 +137,10 @@ body{
     background: #f1f1f1;
   }
   
-  .All-cats li img:hover,
-  .All-cats li img:active,
-  .All-cats li img:focus,
-  .All-cats li.active img{
+  .All-illustrations li img:hover,
+  .All-illustrations li img:active,
+  .All-illustrations li img:focus,
+  .All-illustrations li.active img{
     opacity: 1;
   }
   

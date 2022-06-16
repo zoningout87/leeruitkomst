@@ -1,4 +1,4 @@
-var cats = [
+var illustrations = [
     { name: "Light", votes: 0 },
     { name: "Heal", votes: 0 },
     { name: "Ivy", votes: 0},
@@ -11,23 +11,23 @@ var cats = [
     'use strict';
   
     $('.illustration-1 .overlay').on('click', function () {
-      cats[0].votes += 1;
-      $(this).parent().find('.votes').text(cats[0].votes);
+      illustrations[0].votes += 1;
+      $(this).parent().find('.votes').text(illustrations[0].votes);
     });
   
     $('.illustration-2 .overlay').on('click', function () {
-      cats[1].votes += 1;
-      $(this).parent().find('.votes').text(cats[1].votes);
+      illustrations[1].votes += 1;
+      $(this).parent().find('.votes').text(illustrations[1].votes);
     });
   
     $('.illustration-3 .overlay').on('click', function () {
-      cats[2].votes += 1;
-      $(this).parent().find('.votes').text(cats[2].votes);
+      illustrations[2].votes += 1;
+      $(this).parent().find('.votes').text(illustrations[2].votes);
     });
   
     $('.illustration-4 .overlay').on('click', function () {
-      cats[3].votes += 1;
-      $(this).parent().find('.votes').text(cats[3].votes);
+      illustrations[3].votes += 1;
+      $(this).parent().find('.votes').text(illustrations[3].votes);
     });
   
     $('.All-cats li').on('click', function () {
