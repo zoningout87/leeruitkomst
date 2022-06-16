@@ -59,7 +59,7 @@ body{
   }
   
   
-  .cat{
+  .illustration{
     position: relative;
     cursor: pointer;
     width: 400px;
@@ -67,15 +67,15 @@ body{
     display: none;
   }
   
-  .cat:hover .overlay{
+  .illustration:hover .overlay{
     display: block;
   }
   
-  .cat .poster{
+  .illustration .poster{
     width: 100% !important;
   }
   
-  .cat h3{
+  .illustration h3{
     background-color: #F44336;
     color: #F1F1F1;
     font-size: 19px;
@@ -84,7 +84,7 @@ body{
     font-family: monospace;
   }
   
-  .cat .votes{
+  .illustration .votes{
     position: absolute;
     top: -5%;
     left: -5%;
@@ -98,7 +98,7 @@ body{
     font-size: 23px;
   }
   
-  .cat .overlay{
+  .illustration .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -160,3 +160,6 @@ body{
   
   .footer span{
     color: #f44336;
+  }
+
+
