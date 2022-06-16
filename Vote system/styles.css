@@ -59,7 +59,7 @@ body{
   }
   
   
-  .illustration{
+  .cat{
     position: relative;
     cursor: pointer;
     width: 400px;
@@ -67,15 +67,15 @@ body{
     display: none;
   }
   
-  .illustration:hover .overlay{
+  .cat:hover .overlay{
     display: block;
   }
   
-  .illustration .poster{
+  .cat .poster{
     width: 100% !important;
   }
   
-  .illustration h3{
+  .cat h3{
     background-color: #F44336;
     color: #F1F1F1;
     font-size: 19px;
@@ -84,7 +84,7 @@ body{
     font-family: monospace;
   }
   
-  .illustration .votes{
+  .cat .votes{
     position: absolute;
     top: -5%;
     left: -5%;
@@ -98,7 +98,7 @@ body{
     font-size: 23px;
   }
   
-  .illustration .overlay{
+  .cat .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -117,18 +117,18 @@ body{
     transform: translate(-50%, -50%);
   }
   
-  .All-illustrations{
+  .All-cats{
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .All-illustrations li{
+  .All-cats li{
     display: inline-block;
     margin: 10px;
   }
   
-  .All-illustrations li img{
+  .All-cats li img{
     width: 80px;
     opacity: .5;
     cursor: pointer;
@@ -137,10 +137,10 @@ body{
     background: #f1f1f1;
   }
   
-  .All-illustrations li img:hover,
-  .All-illustrations li img:active,
-  .All-illustrations li img:focus,
-  .All-illustrations li.active img{
+  .All-cats li img:hover,
+  .All-cats li img:active,
+  .All-cats li img:focus,
+  .All-cats li.active img{
     opacity: 1;
   }
   
@@ -161,5 +161,4 @@ body{
   .footer span{
     color: #f44336;
   }
-
-
+  
