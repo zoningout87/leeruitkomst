@@ -5,6 +5,7 @@
   body {
     max-width: 1440px;
     margin: auto;
+    background-color: black;
   }
   
   .slider-wrapper {
@@ -62,8 +63,8 @@
     
 
   .slide img {
-    height: 900px;
-    width: 700px; 
+    height: 919px;
+    width: 650px; 
     margin-left: 350px;
 
   }
