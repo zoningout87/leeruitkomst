@@ -18,49 +18,37 @@
           <div class="notice">
             <p><span>i</span>To make a correct voting please click on the picture</p>
           </div>
-        <div class="illustraton illustrations-1 display-b" onclick="vote(1);">
-          <img src="Light.jpg" alt="">
+        <div class="illustration" id="illustration-Light">
+          <img src="Light.jpg" alt="" onclick="vote(0);">
           <h3>Light</h3>
           <div id="vote-for-Light" class="votes">0</div>
-          <div id="illustrations" class="overlay">
-            <img class="imoji" src="http://www8.0zz0.com/2018/09/03/15/403827324.png" alt="imoji icon">
-          </div>
         </div>
-        <div class="illustration illustrations-2">
-          <img src="Heal.jpg" alt="">
+        <div class="illustration" id="illustration-Heal">
+          <img src="Heal.jpg" alt="" onclick="vote(1);">
           <h3>Heal</h3>
-          <div id="illustration vote-for-Heal" class="votes">0</div>
-          <div id="illustration-picture" class="overlay">
-            <img class="imoji" src="http://www8.0zz0.com/2018/09/03/15/403827324.png" alt="imoji icon">
-          </div>
+          <div id="vote-for-Heal" class="votes">0</div>
         </div>
-        <div class="illustration illustrations-3">
-          <img src="Ivy.jpg" alt="">
+        <div class="illustration" id="illustration-Ivy">
+          <img src="Ivy.jpg" alt="" onclick="vote(2);">
           <h3>Ivy</h3>
-          <div id="illustration vote-for-Ivy" class="votes">0</div>
-          <div id="illustration-picture" class="overlay">
-            <img class="imoji" src="http://www8.0zz0.com/2018/09/03/15/403827324.png" alt="imoji icon">
-          </div>
+          <div id="vote-for-Ivy" class="votes">0</div>
         </div>
-        <div class="illustration illustrations-4">
-          <img src="Mermaid.jpg" alt="">
+        <div class="illustration" id="illustration-Mermaid">
+          <img src="Mermaid.jpg" alt="" onclick="vote(3);">
           <h3>Mermaid</h3>
-          <div id="illustration vote-for-Mermaid" class="votes">0</div>
-          <div id="illustration-picture" class="overlay">
-            <img class="imoji" src="http://www8.0zz0.com/2018/09/03/15/403827324.png" alt="imoji icon">
-          </div>
+          <div id="vote-for-Mermaid" class="votes">0</div>
         </div>
         <ul class="All-illustrations">
-          <li class="active" data-class="illustrations-1">
+          <li onclick="preview(0);">
             <img src="Light.jpg" alt="">
           </li>
-          <li data-class="illustration-2">
+          <li onclick="preview(1);">
             <img src="Heal.jpg" alt="">
           </li>
-          <li data-class="illustration-3">
+          <li onclick="preview(2);">
             <img src="Ivy.jpg" alt="">
           </li>
-          <li data-class="illustration-4">
+          <li onclick="preview(3);">
             <img src="Mermaid.jpg" alt="">
           </li>
         </ul>

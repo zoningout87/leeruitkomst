@@ -1,44 +1,38 @@
 var illustrations = [
-    { name: "Light", votes: 0 },
-    { name: "Heal", votes: 0 },
-    { name: "Ivy", votes: 0},
-    { name: "Mermaid", votes: 0 }
-  ]
+  { name: "Light", votes: 0 },
+  { name: "Heal", votes: 0 },
+  { name: "Ivy", votes: 0},
+  { name: "Mermaid", votes: 0 }
+];
   
-  
-  /*globle $, alert, console*/
-  $(function () {
-    'use strict';
-  
-    $('.illustration-1 .overlay').on('click', function () {
-      illustrations[0].votes += 1;
-      $(this).parent().find('.votes').text(illustrations[0].votes);
-    });
-  
-    $('.illustration-2 .overlay').on('click', function () {
-      illustrations[1].votes += 1;
-      $(this).parent().find('.votes').text(illustrations[1].votes);
-    });
-  
-    $('.illustration-3 .overlay').on('click', function () {
-      illustrations[2].votes += 1;
-      $(this).parent().find('.votes').text(illustrations[2].votes);
-    });
-  
-    $('.illustration-4 .overlay').on('click', function () {
-      illustrations[3].votes += 1;
-      $(this).parent().find('.votes').text(illustrations[3].votes);
-    });
-  
-    $('.All-cats li').on('click', function () {
-      $(this).addClass('active').siblings().removeClass('active');
-      var on_air = '.' + $(this).data('class');
-      $(on_air).addClass('display-b').siblings().removeClass('display-b');
-    });
-  
-  });
-
-  function vote(index) {
-    illustrations[index].votes++;
+// Stem uitbrengen op een tekening
+function vote(index) {
+  // Controleer of illustration als index wel bestaat
+  if (index < illustrations.length) {
+    // Ophogen van de stemmen
+    illustrations[index].votes += 1;
+    // Ervoor zorgen dat het aantal gelijk wordt geupdate op de pagina
+    query = "vote-for-" + illustrations[index].name;
+    document.getElementById(query).innerText = illustrations[index].votes;
   }
+}
   
+// Tonen van afbeelding op groot formaat
+function preview(index) {
+  // Controleer of illustration als index wel bestaat
+  if (index < illustrations.length) {
+    // Verberg alle afbeeldingen, behalve die geselecteerd was
+    illustrations.forEach(function(item) {
+      query = "illustration-" + item.name;
+      element = document.getElementById(query);
+      // Wisselen van css class zodat het verborgen wordt
+      element.classList.remove("display-b");
+      element.classList.add("display-n");
+      // Tenzij het juist getoond moet worden
+      if (item.name == illustrations[index].name) {
+        element.classList.remove("display-n");
+        element.classList.add("display-b");
+      }
+    });
+  }
+}
