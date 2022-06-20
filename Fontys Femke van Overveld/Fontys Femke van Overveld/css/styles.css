@@ -284,6 +284,15 @@ float: left;
 
   }
 
+  .slide5 img {
+    float: left;
+    height: 500px;
+    width: 800px;
+    margin-left: 30px;
+    padding: 10px;
+
+  }
+
   .text2  {
     float: left;
     height: 400px;
