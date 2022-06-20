@@ -1,0 +1,89 @@
+body {
+background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.viewport {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-parent {
+  position: relative;
+  top: 100vh;
+  left: 30;
+  width: 100vh;
+  height: 100vw;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  /*overflow-x: hidden;*/
+  overflow-y: scroll;
+  -webkit-perspective-origin: 50% 50% 0;
+          perspective-origin: 50% 50% 0;
+  -webkit-perspective: 3px;
+          perspective: 3px;
+}
+
+.parallax-parent::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*blue*/
+.parallax-child-container-child-1 {
+  position: absolute;
+  text-align: center;
+  z-index: 4;
+  left: 50%;
+  width: 100vw;
+  padding: 0 30vw;
+  -webkit-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) translateZ(-3px) rotate(90deg);
+          transform: translateX(-50%) translateY(-50%) translateZ(-3px) rotate(90deg);
+}
+/*red*/
+.parallax-child-container-child-2 {
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+  left: 50%;
+  width: 100vw;
+  padding: 0 30vw;
+  -webkit-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) translateZ(-2px) rotate(90deg);
+          transform: translateX(-50%) translateY(-50%) translateZ(-2px) rotate(90deg);
+}
+/*green*/
+.parallax-child-container-child-3 {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  left: 50%;
+  width: 100vw;
+  padding: 0 30vw;
+  -webkit-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) translateZ(-1px) rotate(90deg);
+          transform: translateX(-50%) translateY(-50%) translateZ(-1px) rotate(90deg);
+
+}
+
+.parallax-background {
+  position: absolute;
+
+  -webkit-transform: translateX(-50%) translateY(180%) translateZ(1px) scale(2.5) rotate(90deg);
+          transform: translateX(-50%) translateY(180%) translateZ(1px) scale(2.5) rotate(90deg);
+  z-index: 0;
+}

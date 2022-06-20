@@ -1,0 +1,150 @@
+body {
+  background-color: black;
+  font-family: "Shippori Mincho B1"
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Josefin Sans";
+}
+
+p {
+  color: white;
+  font-family: "Shippori Mincho B1";
+  font-size: 14px;
+}
+
+#wrapper {
+  background-color: white;
+  max-width: 75%;
+  margin: auto;
+}
+
+#wrapper .lefthand {
+  float: left;
+  width: 65%;
+}
+
+#wrapper .righthand {
+  float: right;
+  width: 30%;
+}
+
+#header {
+  padding-left: 20px;
+  background-color: black;
+  height: 90px;
+  width: 100%;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 30px 0px 0px 0px;
+  font-size: 50px;
+}
+
+#navigatie {
+  padding-left: 20px;
+  background-color: black;
+  width: 100%;
+}
+
+.nav {
+  color: white;
+  background-color: black;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.navunderline{
+  text-decoration: underline !important;
+}
+
+#navigatie a {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#navigatie a:hover{
+  color: white;
+  text-decoration: underline;
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+
+.name-page{
+  font-family: "Josefin Sans";
+  color: white;
+  font-size: 40px;
+  padding: 15px 20px;
+  position: fixed;
+  width: 750px;
+  height: 50px;
+  background-color: black;
+}
+p.first{
+  color: white;
+  font-family: "Shippori Mincho B1";
+}
+
+.picture{
+  margin: 20px;
+  height: 300px;
+  width: 500px;
+}
+
+p.mail{
+  color: white;
+  font-family: "Shippori Mincho B1";
+
+}
+
+.formulier{
+  color: white;
+  font-family: "Shippori Mincho B1";
+  font-size: 14px;
+}
+
+
+#text-container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: black;
+  height: 700px;
+  width: 100%;
+  border-color: white;
+  border-width: : 1px;
+  border-style: solid;
+  overflow: scroll;
+}
+#text-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dark-gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+ }

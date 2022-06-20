@@ -1,0 +1,525 @@
+/*Body website */
+
+body {
+background-color: #64a8d8;
+margin: 0;
+}
+
+h2, h3, h4, h5, h6{
+font-family: 'Poppins', sans-serif;
+color: #022e57;
+}
+
+h1{
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+p {
+font-family: 'Karla', sans-serif;
+color: white;
+font-size: 25px;
+}
+
+a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Karla', sans-serif;
+}
+
+/*headers*/
+  .header{
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #005a8d;
+    }
+
+    .home img {
+      height: 50px;
+      width: 50px;
+
+
+    }
+
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #005a8d;
+       color: white;
+       text-align: center;
+    }
+
+/*Index */
+  .inleiding {
+    float: left;
+    height: 750px;
+    width: 1000px;
+    }
+
+    .kraan {
+      width: 750px;
+      height: 600px;
+      margin-left: 175px;
+      margin-top: 10px;
+      }
+
+.welkomsttekst{
+  margin-top: 25px;
+font-family: 'Karla', sans-serif;
+font-size: 40px;
+color: white;
+margin-left: 500px;
+}
+
+    .welkom {
+      margin-top: 20px;
+      margin-left: 275px;
+      display: inline-block;
+      animation: fadeIn linear 7s;
+      -webkit-animation: fadeIn linear 7s;
+      -moz-animation: fadeIn linear 7s;
+      -o-animation: fadeIn linear 7s;
+      -ms-animation: fadeIn linear 7s;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    .welkom2 {
+      font-family: 'Karla', sans-serif;
+      margin-top: 15px;
+      margin-left: 100px;
+      display: inline-block;
+      font-size: 50px;
+      color: white;
+      animation: fadeIn linear 2s;
+      -webkit-animation: fadeIn linear 2s;
+      -moz-animation: fadeIn linear 2s;
+      -o-animation: fadeIn linear 2s;
+      -ms-animation: fadeIn linear 2s;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+
+  .nav {
+    margin-left: 70px;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    float: left;
+    }
+
+  .druppelhoi {
+    margin-right: 100px;
+    width: 500px;
+    height: 750px;
+    float: right;
+    }
+
+
+.uitleg{
+  margin-left: 200px;
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  color: white;
+  height: 50px;
+  width: 500px;
+}
+
+.knoppen{
+margin-left: 100px;
+margin-top: 100px;
+
+}
+
+.knoppen2{
+  margin-left: 200px;
+float: left;
+
+}
+
+.knop{
+float: right;
+margin-right: 200px;
+}
+
+.knoppenkaart{
+  float:right;
+  margin-right: 75px;
+  margin-top: 400px;
+
+
+}
+
+.headerkaart{
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-left: 400px;
+
+
+}
+
+/* Kaartenpage*/
+
+  .kaart{
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: -2;
+    }
+
+  .kaart img {
+    width: 1000px;
+    height: 1250px;
+    }
+
+/* Know how boxen */
+/* Grondwater*/
+
+.knowGrondRond{
+position: absolute;
+margin-top: 198px;
+margin-left: 1100px;
+
+background-color: #f1c232;
+border-radius: 25px;
+height: 50px;
+width: 50px;
+z-index: -1;
+
+}
+  .knowGrond{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1100px;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 50px;
+    width: 150px;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    color: white;
+    background-color: #3d85c6;
+    border: blue;
+    border-style: solid;
+    border-radius: 25%;
+    opacity: 0%;
+    }
+
+
+  .knowGrond:hover {
+    position: absolute;
+    opacity:100%;
+    transition:opacity 2s;
+    }
+
+/*Oost en West */
+
+.knowOostRond{
+position: absolute;
+margin-top: 700px;
+margin-left: 800px;
+background-color: #f1c232;
+border-radius: 25px;
+height: 50px;
+width: 50px;
+z-index: -1;
+}
+
+  .knowOost{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 800px;
+    padding-top: 5px;
+    padding-left: 40px;
+    height: 50px;
+    width: 300px;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    background-color: #3d85c6;
+    border: blue;
+    border-style: solid;
+    border-radius: 25%;
+    opacity: 0%;
+    }
+
+  .knowOost:hover {
+    position: absolute;
+    opacity:100%;
+    transition:opacity 2s;
+    }
+
+/*Regen*/
+
+.knowRegenRond{
+position: absolute;
+margin-top: 300px;
+margin-left: 500px;
+background-color: #f1c232;
+border-radius: 25px;
+height: 50px;
+width: 50px;
+z-index: -1;
+}
+
+  .knowRegen{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 500px;
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    color: Blue;
+    background-color: #3d85c6;
+    border: blue;
+    border-style: solid;
+    border-radius: 25%;
+    opacity: 0%;
+    }
+
+
+  .knowRegen:hover {
+    position: absolute;
+    opacity:100%;
+    transition:opacity 2s;
+    }
+
+.kompas img{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 300px;
+  border-radius: 25px;
+  height: 250px;
+  width: 250px;
+  z-index: -1;
+  }
+
+
+
+
+
+/*Texst and images boxen */
+
+.container {
+  margin-left: 300px;
+  color: white;
+  height: 150px;
+  width: 1100px;
+  }
+
+  .containerKaart {
+    margin-left: 75px;
+    color: white;
+    height: 150px;
+    width: 900px;
+    }
+
+/*Grondwater*/
+  .grondwaterBox img {
+    margin-top: 300px;
+    margin-left: 100px;
+    height: 800px;
+    width: 1000px;
+    }
+
+  .textGrondwaterBox{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 1000px;
+    height: 100px;
+    color: white;
+    }
+
+/*Regenwater*/
+  .oostBox img {
+    margin-right: 400px;
+    width: 500px;
+    height: 500px;
+    float:right;
+    }
+
+  .oostBox{
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+    float: left;
+    }
+
+    .kompas2 img{
+      margin-top: 10px;
+      width: 500px;
+      height: 500px;
+      float: right;
+     }
+
+
+/*Regenwater*/
+.textRegenBox{
+  width: 500px;
+  height: 500px;
+  float:left;
+
+  }
+
+  .regenBox img {
+    width: 500px;
+    height: 500px;
+    float: right;
+
+    }
+
+/*Bezorgd*/
+
+.bezorgdBox img {
+  width: 400px;
+  height: 500px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 250px;
+  }
+.textBezorgdBox{
+  margin-right: 150px;
+  width: 800px;
+  height: 500px;
+  float: right;
+  }
+
+
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #3d85c6;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #3d85c6;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #3d85c6;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #022e57;
+  }
+
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
