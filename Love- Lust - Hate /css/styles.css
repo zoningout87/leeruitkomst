@@ -1,0 +1,84 @@
+
+body {
+  background-color: #b01b1b;
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+
+}
+.one {
+  background: #b01b1b;
+}
+.two {
+  background: #b01b1b;
+}
+.three {
+  background: #b01b1b;
+}
+.four {
+  background: #b01b1b;
+}
+
+.heart-rate {
+  width: 250px;
+  height: 573px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.fade-in {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b01b1b;
+  top: 0;
+  right: 0;
+  animation: heartRateIn 2.5s linear infinite;
+}
+
+.fade-out {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -120%;
+  animation: heartRateOut 2.5s linear infinite;
+  background: rgba(0, 0, 0, 1);
+  background: -moz-linear-gradient(left, rgba(176, 27, 27, 1) 0%, rgba(176, 27, 27, 1) 50%, rgba(176, 27, 27, 0) 100%);
+  background: -webkit-linear-gradient(left, rgba(176, 27, 27, 1) 0%, rgba(176, 27, 27, 1) 50%, rgba(176, 27, 27, 0) 100%);
+  background: -o-linear-gradient(left, rgba(176, 27, 27, 1) 0%, rgba(176, 27, 27, 1) 50%, rgba(176, 27, 27, 0) 100%);
+  background: -ms-linear-gradient(left, rgba(176, 27, 27, 1) 0%, rgba(176, 27, 27, 1) 50%, rgba(176, 27, 27, 0) 100%);
+  background: linear-gradient(to right, rgba(176, 27, 27, 1) 0%, rgba(176, 27, 27, 1) 80%, rgba(176, 27, 27, 0) 100%);
+}
+
+@keyframes heartRateIn {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes heartRateOut {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: -120%;
+  }
+  100% {
+    left: 0;
+  }
+}
