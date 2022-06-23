@@ -133,6 +133,14 @@ h4{
   overflow: scroll;
 }
 
+.Alinea ul {
+  padding-left:  0;
+}
+
+a {
+  color: white;
+}
+
 .Development{
   float: right;
   margin-right: 10vw;
@@ -174,7 +182,7 @@ h4{
   overflow: hidden;
 }
 
-.Wrapper{
+.wrapper{
   height: 70vh;
   width: 95vw;
 }
@@ -321,7 +329,7 @@ float: left;
 
 .textDesign {
     float: left;
-    height: 400px;
+    min-height: 400px;
     width: 300px;
     margin-left: 30px;
     padding: 10px;
