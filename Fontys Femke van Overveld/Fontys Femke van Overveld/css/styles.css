@@ -9,13 +9,10 @@ background-repeat;
   line-height: 1.8;
   background-repeat: repeat-x, no-repeat;
   background-color: #041120;
-
-
 }
 
 
-p{
-
+p {
   font-family: 'Josefin Sans', sans-serif;
   color: #EFEFEF;
   font-size: 18px;
@@ -97,13 +94,11 @@ h4{
   width: 55vw;
   font-size: 20px;
   padding: 10px;
-
-
-
 }
+
 .Design{
   float: right;
-margin-right: 10vw;
+  margin-right: 10vw;
   margin-top: 40px;
   border-style: solid;
   border-style: white;
@@ -114,9 +109,20 @@ margin-right: 10vw;
   overflow: hidden;
 }
 
-
-
 .Research{
+  float: right;
+  margin-right: 10vw;
+  margin-top: 40px;
+  border-style: solid;
+  border-style: white;
+  height: 70vh;
+  width: 55vw;
+  font-size: 20px;
+  padding: 50px;
+  overflow: scroll;
+}
+
+.Development{
   float: right;
   margin-right: 10vw;
   margin-top: 40px;
@@ -140,6 +146,32 @@ margin-right: 10vw;
   font-size: 20px;
   padding: 50px;
   overflow: scroll;
+}
+
+.Oefeningen{
+  float: right;
+  margin-right: 10vw;
+  margin-top: 40px;
+  border-style: solid;
+  border-style: white;
+  height: 20vh;
+  width: 55vw;
+  font-size: 20px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.Introductie{
+  float: right;
+  margin-right: 10vw;
+  margin-top: 40px;
+  border-style: solid;
+  border-style: white;
+  height: 35vh;
+  width: 55vw;
+  font-size: 20px;
+  padding: 50px;
+  overflow: hidden;
 }
 
 .Wrapper{
@@ -293,13 +325,19 @@ float: left;
 
   }
 
-  .text2  {
+  .textDesign {
     float: left;
     height: 400px;
     width: 300px;
     margin-left: 30px;
     padding: 10px;
 
+  }
+
+  .text2 {
+    float: left;
+    height: 400px;
+    width: 300px;
   }
 
   .text3  {
@@ -310,3 +348,13 @@ float: left;
     margin-bottom: 30px;
     padding: 10px;
   }
+
+
+.textgitHub{
+  height: 20px;
+  width: 600px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+}
